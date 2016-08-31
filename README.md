@@ -130,7 +130,8 @@ For test case please execute following sql scripts.
 INSERT INTO transactionmonitoring.transactionmonitoringrules(
 sql, owner, frequency, action, email_address, email_body, description, 
 next_review_date, create_date, update_date, last_run_date)
-VALUES ('select id, customer_id, customer_name, amount, date, txn_type, txn_completion_status, card_holder_name, comments from from_sc.financial_transactions_presentation
+VALUES ('select id, customer_id, customer_name, amount, date, txn_type, 
+txn_completion_status, card_holder_name, comments from from_sc.financial_transactions_presentation
 where amount > 1000'
 , 'pentaho', '1 min', 'write to log', '', '', 'Description_1m', 
 CURRENT_TIMESTAMP,CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
@@ -138,7 +139,8 @@ CURRENT_TIMESTAMP,CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
 INSERT INTO transactionmonitoring.transactionmonitoringrules(
 sql, owner, frequency, action, email_address, email_body, description, 
 next_review_date, create_date, update_date, last_run_date)
-VALUES ('select id, customer_id, customer_name, amount, date, txn_type, txn_completion_status, card_holder_name, comments from from_sc.financial_transactions_presentation
+VALUES ('select id, customer_id, customer_name, amount, date, txn_type,
+txn_completion_status, card_holder_name, comments from from_sc.financial_transactions_presentation
 where amount > 1000'
 , 'pentaho', '1 min', 'mail', 'erik@globalorange.nl', 'Hi body..', 'SCMON-16: Transactions Presentations_1m', 
 CURRENT_TIMESTAMP,CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
@@ -146,7 +148,8 @@ CURRENT_TIMESTAMP,CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
 INSERT INTO transactionmonitoring.transactionmonitoringrules(
 sql, owner, frequency, action, email_address, email_body, description, 
 next_review_date, create_date, update_date, last_run_date)
-VALUES ('select id, customer_id, customer_name, amount, date, txn_type, txn_completion_status, card_holder_name, comments from from_sc.financial_transactions_presentation
+VALUES ('select id, customer_id, customer_name, amount, date, txn_type,
+txn_completion_status, card_holder_name, comments from from_sc.financial_transactions_presentation
 where amount > 1000'
 , 'pentaho', '5 min', 'mail', 'erik@globalorange.nl', 'Hi body..', 'SCMON-16: Transactions Presentations_5m', 
 CURRENT_TIMESTAMP,CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
@@ -155,7 +158,8 @@ CURRENT_TIMESTAMP,CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
 INSERT INTO transactionmonitoring.transactionmonitoringrules(
 sql, owner, frequency, action, email_address, email_body, description, 
 next_review_date, create_date, update_date, last_run_date)
-VALUES ('select id, customer_id, customer_name, amount, date, txn_type, txn_completion_status, card_holder_name, comments from from_sc.financial_transactions_presentation
+VALUES ('select id, customer_id, customer_name, amount, date, txn_type,
+txn_completion_status, card_holder_name, comments from from_sc.financial_transactions_presentation
 where amount > 1000'
 , 'pentaho', '1 day', 'mail', 'erik@globalorange.nl', 'Hi body..', 'SCMON-16: Transactions Presentations_1d', 
 CURRENT_TIMESTAMP,CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
@@ -163,7 +167,8 @@ CURRENT_TIMESTAMP,CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
 INSERT INTO transactionmonitoring.transactionmonitoringrules(
 sql, owner, frequency, action, email_address, email_body, description, 
 next_review_date, create_date, update_date, last_run_date)
-VALUES ('select id, customer_id, customer_name, amount, date, txn_type, txn_completion_status, card_holder_name, comments from from_sc.financial_transactions_presentation
+VALUES ('select id, customer_id, customer_name, amount, date, txn_type,
+txn_completion_status, card_holder_name, comments from from_sc.financial_transactions_presentation
 where amount > 1000'
 , 'pentaho', '1 week', 'mail', 'erik@globalorange.nl', 'Hi body..', 'SCMON-16: Transactions Presentations_1w', 
 CURRENT_TIMESTAMP,CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
