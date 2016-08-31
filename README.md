@@ -3,10 +3,12 @@
 The purpose of the task is to track fraudulous transactions.
 ##Structure
 SCMON-16 has following structure.
-####Main
-Main folder of SCMON-16 contains the Job files. The entry point of the mapping is "Job_Main_Transaction_Monitoring.kjb". It also contains folder like **Transformations** and **Mail Files**.
+###Main
+Main folder of SCMON-16 contains the Job files. The entry point of the mapping is "Job_Main_Transaction_Monitoring.kjb". It also contains 2 more folders **Transformations** and **Mail Files**.
+####File List
 ```
-.: 
+#####SCMON-16
+.:  
 
 .environment
 
@@ -21,13 +23,10 @@ Job_POC.kjb
 Job_Set_Variables.kjb
 
 Job_Write_To_Log.kjb
-
-Transformations
-
-MailFiles
 ```
+#####Transformations
 ```
-.: Transformations
+.: 
 
 Trans_Get_Metata.ktr
 
@@ -49,6 +48,9 @@ Trans_Write_To_Log.ktr
 
 Trans_Write_To_Log_Meta.ktr
 ```
+#####Mail Files
+Mail File stores the mails which are to be sent to users.
+
 ##Installation and Configuration
 ###Connect to Server
 To deploy SCMON-16 connect to desired server at port 5433
