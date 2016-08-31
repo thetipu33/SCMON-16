@@ -56,14 +56,13 @@ Mail File stores the mails which are to be sent to users.
 To deploy SCMON-16 connect to desired server at port 5433
 * bitesting.simpledcard.com
 * bi.simpledcard.com
+First connect to VPN. After that make ssh tunnel using **putty** on windows. For more information [Visit this](http://www.postgresonline.com/journal/archives/38-PuTTY-for-SSH-Tunneling-to-PostgreSQL-Server.html).
 
-You can connect to server using **putty** in windows. For more information [Visit this](http://www.postgresonline.com/journal/archives/38-PuTTY-for-SSH-Tunneling-to-PostgreSQL-Server.html).
-
-For linux base Operating Systems change in the following command
+For linux base operating systems change in the following command with proper credentials
 ```
 ssh -L 65432:localhost:5432 username@server.com
 ```
-After executing this command provide ssh password. For more information [Visit this](https://www.postgresql.org/docs/9.1/static/ssh-tunnels.html)
+For more information [Visit this](https://www.postgresql.org/docs/9.1/static/ssh-tunnels.html)
 
 ###Create Schema
 ```
