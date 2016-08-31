@@ -1,7 +1,10 @@
 #SCMON-16: Transaction Monitoring
 ##Overview
 The purpose of the task is to track fraudulous transactions.
-##File List
+##Structure
+SCMON-16 has following structure.
+####Main
+Main folder of SCMON-16 contains the Job files. The entry point of the mapping is "Job_Main_Transaction_Monitoring.kjb". It also contains folder like **Transformations** and **Mail Files**.
 ```
 .: 
 
