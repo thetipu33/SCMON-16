@@ -26,5 +26,23 @@ MailFiles
 ```
 .: Transformations
 
+Trans_Get_Metata.ktr
 
+Trans_Load_Mail.ktr
+
+Trans_Load_Metadata_Injection.ktr
+
+Trans_Load_Query.ktr
+
+Trans_Make_CSV_File.ktr
+
+Trans_Set_Current_Timestamp.ktr
+
+Trans_Set_Variables.ktr
+
+Trans_Template.ktr
+
+Trans_Write_To_Log.ktr
+
+Trans_Write_To_Log_Meta.ktr
 ```
