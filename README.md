@@ -6,8 +6,8 @@ SCMON-16 has following structure.
 ###Main
 Main folder of SCMON-16 contains the Job files. The entry point of the mapping is "Job_Main_Transaction_Monitoring.kjb". It also contains 2 more folders **Transformations** and **Mail Files**.
 ####File List
-```
 #####SCMON-16
+```
 .:  
 
 .environment
@@ -56,6 +56,14 @@ Mail File stores the mails which are to be sent to users.
 To deploy SCMON-16 connect to desired server at port 5433
 * bitesting.simpledcard.com
 * bi.simpledcard.com
+
+You can connect to server using **putty** in windows. For more information [Visit this](http://www.postgresonline.com/journal/archives/38-PuTTY-for-SSH-Tunneling-to-PostgreSQL-Server.html).
+
+For linux base Operating Systems change in the following command
+```
+ssh -L 65432:localhost:5432 username@server.com
+```
+After executing this command provide ssh password. For more information [Visit this](https://www.postgresql.org/docs/9.1/static/ssh-tunnels.html)
 
 ###Create Schema
 ```
