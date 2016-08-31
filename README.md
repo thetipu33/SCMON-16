@@ -48,7 +48,9 @@ Trans_Write_To_Log_Meta.ktr
 ```
 ##Installation and Configuration
 ###Connect to Server
-
+To deploy SCMON-16 connect to desired server
+* bitesting.simpledcard.com
+* bi.simpledcard.com
 ###Create Schema
 ```
 create schema transactionmonitoring;
