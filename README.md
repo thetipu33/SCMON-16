@@ -47,14 +47,14 @@ Trans_Write_To_Log.ktr
 Trans_Write_To_Log_Meta.ktr
 ```
 ##Installation and Configuration
+###Connect to Server
 
 ###Create Schema
 ```
-create schema transactionmonitoring
+create schema transactionmonitoring;
 ```
 ###Create Table
 ```
-
 CREATE TABLE transactionmonitoring.transactionmonitoringrules
 (
   id serial NOT NULL,
