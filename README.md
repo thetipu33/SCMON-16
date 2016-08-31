@@ -80,19 +80,35 @@ WITH (
 ###Change .parameters file
 To configure mappings, change the parameters to put the server and mail credentials
 ####use
-**use** is used to specify which configuration you want to use. If you want to use the configuration change the use value to 1 and rest to 0. Make sure that there should always be 1 configuration to be used.
+It is used to specify which configuration you want to use. If you want to use the configuration change the use value to 1 and rest to 0. Make sure that there should always be 1 configuration to be used.
 ####livedb_host
+It is the replica of the production server listing on port 5432. specify its host name.
 ####live_db_database
+It is the database "simpled_cards".
 ####live_port
+It is the server port 5432.
 ####livedb_user
+It is the username to connect to database.
 ####livedb_pwd
+It is the password.
 ####mgtdb_host
+It is the management server listing on port 5433.
 ####mgtdb_db_database
+It is the database "simpled_card_reporting".
 ####mgtdb_port
+It is the server port 5433.
 ####mgtdb_user
+It is the username to connect to database.
 ####mgtdb_pwd
-####smpt_server
+It is the password.
+####smtp_server
+smpt server that is used to send mails. Currently we are using smtp server of **Gmail** smtp.gmail.com.
+To configure it you need an authenticated gmail account. Login to your gmail account by creating a new gmail account or use existing one. [visit](https://www.google.com/settings/security/lesssecureapps) and check the **Turn on** checkbox of "Access for less secure apps". For more detials [read this](https://support.google.com/accounts/answer/6010255?hl=en)
 ####smpt_port
+smtp port for smpt server. 465 is for smtp.gmail.com
 ####sender_name
+Specify the Sender's Name that will appear in the Email.
 ####sender_email
+Specify the email address of gmail account through which you want to send emails.
 ####sender_pwd
+Specify the passwod of gmail account through which you want to send emails.
