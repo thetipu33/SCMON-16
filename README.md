@@ -46,3 +46,31 @@ Trans_Write_To_Log.ktr
 
 Trans_Write_To_Log_Meta.ktr
 ```
+##Installation and Configuration
+
+###Create Schema
+```
+create schema transactionmonitoring
+```
+###Create Table
+```
+
+CREATE TABLE transactionmonitoring.transactionmonitoringrules
+(
+  id serial NOT NULL,
+  sql text,
+  owner character varying(250),
+  frequency interval,
+  action character varying(250),
+  email_address character varying(250),
+  email_body text,
+  description text,
+  next_review_date date,
+  create_date timestamp with time zone,
+  update_date timestamp with time zone,
+  last_run_date timestamp with time zone
+)
+WITH (
+  OIDS=FALSE
+);
+```
