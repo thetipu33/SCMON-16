@@ -81,3 +81,18 @@ WITH (
 To configure mappings, change the parameters to put the server and mail credentials
 ####use
 **use** is used to specify which configuration you want to use. If you want to use the configuration change the use value to 1 and rest to 0. Make sure that there should always be 1 configuration to be used.
+####livedb_host
+####live_db_database
+####live_port
+####livedb_user
+####livedb_pwd
+####mgtdb_host
+####mgtdb_db_database
+####mgtdb_port
+####mgtdb_user
+####mgtdb_pwd
+####smpt_server
+####smpt_port
+####sender_name
+####sender_email
+####sender_pwd
