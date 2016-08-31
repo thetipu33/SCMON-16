@@ -2,7 +2,7 @@
 ##Overview
 The purpose of the task is to track fraudulous transactions.
 ##Structure
-Main directory of SCMON-16 contains the Job files. The entry point of the mapping is "Job_Main_Transaction_Monitoring.kjb". It also contains 2 more directories **Transformations** and **Mail Files**.
+Main directory of SCMON-16 contains the Job files. The entry point of the mapping is "Job_Main_Transaction_Monitoring.kjb". It also contains 2 more directories **Transformations** and **Attachments**.
 ####File List
 #####SCMON-16
 ```
@@ -46,7 +46,7 @@ Trans_Write_To_Log.ktr
 
 Trans_Write_To_Log_Meta.ktr
 ```
-#####Mail Files
+#####Attachments
 This directory stores the csv attachments which are to be sent to users by mail.
 
 ##Installation and Configuration
