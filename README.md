@@ -48,9 +48,10 @@ Trans_Write_To_Log_Meta.ktr
 ```
 ##Installation and Configuration
 ###Connect to Server
-To deploy SCMON-16 connect to desired server
+To deploy SCMON-16 connect to desired server at port 5433
 * bitesting.simpledcard.com
 * bi.simpledcard.com
+
 ###Create Schema
 ```
 create schema transactionmonitoring;
