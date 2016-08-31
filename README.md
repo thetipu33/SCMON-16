@@ -103,7 +103,9 @@ It is the username to connect to database.
 It is the password.
 ####smtp_server
 smpt server that is used to send mails. Currently we are using smtp server of **Gmail** smtp.gmail.com.
-To configure it you need an authenticated gmail account. Login to your gmail account by creating a new gmail account or use existing one. [visit](https://www.google.com/settings/security/lesssecureapps) and check the **Turn on** checkbox of "Access for less secure apps". For more detials [read this](https://support.google.com/accounts/answer/6010255?hl=en)
+To configure it you need an authenticated gmail account. Login to your gmail account by creating a new gmail account or use existing one.
+
+[visit](https://www.google.com/settings/security/lesssecureapps) and check the **Turn on** checkbox of **Access for less secure apps**. For more information [read this](https://support.google.com/accounts/answer/6010255?hl=en)
 ####smpt_port
 smtp port for smpt server. 465 is for smtp.gmail.com
 ####sender_name
